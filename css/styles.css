@@ -1,3 +1,165 @@
-*{
-   outline: 1px solid orange; 
+/*{
+  outline: 1px solid orange;
+}*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size : 14px;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    color: #000000;
+    background: #ffffff;
+     }
+.site-header {
+    color: #ffffff;
+    background: #222222;
+    
+             }
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+        
+           }
+.site-header .container {
+    
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 180px;
+    background-image: url("../img/moon-rocket.png");
+    background-repeat: no-repeat;
+    background-position: 520px 130px;
 }
+.main-nav {
+    display: flex;
+    margin-bottom: 95px;
+    margin-right: 80px;
+    
+    
+}
+.site-menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.site-menu a {
+    display:block;
+    margin-right: 40px;
+}
+
+
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 60px;
+}
+
+.contacts-menu {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+    margin: 0px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 80px;
+    padding: 0px;
+    list-style: none;
+}
+.contacts-menu li {
+    margin-left: 20px;
+    
+}
+
+.about-us {
+    width: 300px;
+    padding-left: 120px;
+    
+}
+
+.about-us h1{
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Courier new";    
+}
+
+.about-us p{
+    margin:0;
+    margin-bottom: 50px;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    color:#d4d4d4;
+}
+
+.btn {
+    display: block;
+    width: 195px;
+    padding: 0 25px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    vertical-align: top;
+    color: #222222;
+    border: none;
+    border-radius: 50px;
+    background-color: #feca30;
+    background-image: url("../img/right-arrow-dark.png");
+    background-repeat: no-repeat;
+    background-position: 195px 17px;
+    
+}
+
+.site-footer {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    background-color: 131313;
+}
+
+.left-column {
+    display:flex;
+    width:180px;
+    margin-right: 100px;
+    
+}
+
+.right-column {
+    width:720px;
+    padding-top: 30 px;
+}
+
+
+.footer-menu { 
+display: flex;
+    margin: 0
+        padding: 0px
+        list-style
+}
+.footer-menu li{
+    width: 180px
+        margin-right: 60px
+
+        
+        
+        .footer-submenu li{
+            display: block;
+                width: 180px;
+                margin-right: 60px;
+}
+    .footer-submenu-title {
+        display: block;
+            margin-bottom: 30px;
+}
+.logo-conteiner{
+        display: flex;
+            align-items: center
+    }
